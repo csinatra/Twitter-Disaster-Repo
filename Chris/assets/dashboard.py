@@ -53,7 +53,7 @@ dapp.layout = html.Div([ html.H2('Disaster Locator'),
                                                     "lat": list(map_data_on['lat']),
                                                     "lon": list(map_data_on['long']),
                                                     "hoverinfo": "text",
-                                                    "hovertext": [[f"Label: {i} <br>Latitude: {j}, Longitude: {k} <br>, Tweet: {l}"]
+                                                    "hovertext": [[f"Label: {i} <br>Latitude: {j}, Longitude: {k} <br>Tweet: {l}"]
                                                                 for i,j,k,l in zip(map_data_on['label'],map_data_on['lat'],map_data_on['long'],map_data_on['tweet'])],
                                                     "mode": "markers",
                                                     "name": 'On-Topic',
@@ -89,7 +89,7 @@ dapp.layout = html.Div([ html.H2('Disaster Locator'),
                                                             )
                                                         )
                                             }),
-                        html.Div([html.A('Dashboard Credits: Ben Liu, Chris Sinatra, Connie Tiet, Mike Hong', href = 'https://github.com/csinatra/Twitter-Disaster-Repo')],
+                        html.Div([html.A('Dashboard Credits: Ben Liu, Chris Sinatra, Connie Tiet, and Mike Hong', href = 'https://github.com/csinatra/Twitter-Disaster-Repo')],
                             style={'text-align':'center'}),
                         html.Div([html.A('Dashboard Inspiration: Adriano Yoshino', href = 'https://github.com/amyoshino/Dash_Tutorial_Series/blob/master/ex4.py')],
                             style={'text-align':'center'})
