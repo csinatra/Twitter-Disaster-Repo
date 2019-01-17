@@ -82,7 +82,7 @@ dapp.layout = html.Div([ html.H2('Disaster Locator'),
                                                                 accesstoken=mapbox_access_token,
                                                                 style="light",
                                                                 center=dict(
-                                                                    lon=-117.358385,
+                                                                    lon=-117.585142,
                                                                     lat=33.996447
                                                                 ),
                                                                 zoom=10,
