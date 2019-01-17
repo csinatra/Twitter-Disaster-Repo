@@ -40,7 +40,7 @@ dapp.layout = html.Div([ html.H2('Disaster Locator'),
                                                     "lat": list(map_data_off['lat']),
                                                     "lon": list(map_data_off['long']),
                                                     "hoverinfo": "text",
-                                                    "hovertext": [[f"Label: {i} <br>Latitude: {j}, Longitude: {k} <br>, Tweet: {l}"]
+                                                    "hovertext": [[f"Label: {i} <br>Latitude: {j}, Longitude: {k} <br>Tweet: {l}"]
                                                                 for i,j,k,l in zip(map_data_off['label'],map_data_off['lat'],map_data_off['long'],map_data_off['tweet'])],
                                                     "mode": "markers",
                                                     "name": 'Off-Topic',
