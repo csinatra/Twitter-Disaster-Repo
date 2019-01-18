@@ -1,4 +1,4 @@
-IP_ADDRESS = '34.220.55.180'
+IP_ADDRESS = 'XX.XXX.XX.XXX'
 DBNAME = 'postgres'
-USER = 'postgres'
-PASSWORD = 'foobar1'
+USER = 'XXXXXX'
+PASSWORD = 'XXXXXX'
