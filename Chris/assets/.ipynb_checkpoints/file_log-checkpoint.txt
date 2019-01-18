@@ -1,2 +1,0 @@
-assets/1547416339_crisislex_df.csv: Word list saved at: Sun Jan 13 21:52:19 2019
-assets/1547416339_crisislex_tfidf.csv: Word list saved at: Sun Jan 13 21:52:19 2019
