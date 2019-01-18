@@ -11,7 +11,7 @@ Twitter is a social media platform where users can post and interact with messag
 Keywords are words or phrases which will be used to determine the relevance of a tweet and classify it. There are two classes:
 
 - **On topic:** Tweets that contain keywords relevant to the current disaster.
-- **Off topic:**Tweets that contain our search terms but are not referring to the disaster.
+- **Off topic:** Tweets that contain our search terms but are not referring to the disaster.
 
 
 ### Data Dictionary
