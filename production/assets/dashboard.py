@@ -19,7 +19,7 @@ dapp.title = "Emergency Tweet Dashboard"
 
 mapbox_access_token = 'pk.eyJ1IjoibmV1cmFsYWxjaGVtaXN0IiwiYSI6ImNqcWZ0Z3BuOTF4aXo0M3FwdGQ0YnllZXoifQ.xqpGQfUtBOXhKU_SYN4l5w'
 
-map_data = pd.read_csv('data/map_data.csv')
+map_data = pd.read_csv('../data/map_data.csv')
 
 map_data_on = map_data[map_data['label'] == 'on-topic']
 map_data_off = map_data[map_data['label'] == 'off-topic']
